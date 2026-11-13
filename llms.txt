@@ -11,9 +11,10 @@
 
 ## Status
 
-Board opens by an owner action; until genesisOpen() reads true on a Positions
-contract, no Call runs. Claims open separately (claimOpen()). No dates promised.
+Board is OPEN. Genesis opened 13 Nov 2026 (genesisOpen() = true) and claims
+are open (claimOpen() = true). Calls run continuously in 6-hour UTC windows.
 No BOARD liquidity pool exists yet; Swap page says Pool Soon.
+X: https://x.com/supaboardfun (@supaboardfun)
 
 ## Contracts
 
