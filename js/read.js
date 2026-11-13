@@ -61,7 +61,7 @@
     },
     fmtBNB: function (wei) {
       var s = wei.toString(); while (s.length <= 18) s = "0" + s;
-      var int = s.slice(0, s.length - 18), frac = s.slice(s.length - 18).replace(/0+$/, "");
+      var int = s.slice(0, s.length - 18), frac = s.slice(s.length - 18).slice(0, 8).replace(/0+$/, "");
       return int + (frac ? "." + frac : "");
     }
   };
